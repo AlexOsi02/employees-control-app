@@ -73,6 +73,10 @@ class App extends Component {
         }
     }
 
+    onUpdateSearch = (term) => {
+        this.setState({term});
+    }
+
     onFilterSelect = (filter) => {
         this.setState({filter})
     }
